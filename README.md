@@ -36,9 +36,13 @@ Then open Copilot Chat in agent mode and make sure the ReplyOnTheFly tools are e
 claude mcp add --transport http replyonthefly https://www.replyonthefly.com/mcp
 ```
 
+### Gemini
+
+On [gemini.google.com](https://gemini.google.com), open **Settings > Connected Apps** and click **+ Custom**. Paste the URL, click **Next**, accept the notice and click **Connect**. In a chat, type **@ReplyOnTheFly**, pick it, and paste the review. Google limits custom apps to personal Google accounts in the US, aged 18 and over, in English, with Keep Activity on. You add them on the web; they also work in the Gemini mobile app.
+
 ### Other MCP clients
 
-Add a remote MCP server with the URL `https://www.replyonthefly.com/mcp`, transport Streamable HTTP, and no authentication. Setup steps for ChatGPT and Claude are at [replyonthefly.com/ai-connector](https://www.replyonthefly.com/ai-connector).
+Add a remote MCP server with the URL `https://www.replyonthefly.com/mcp`, transport Streamable HTTP, and no authentication. Setup steps for each app are also at [replyonthefly.com/ai-connector](https://www.replyonthefly.com/ai-connector).
 
 ## Use it
 
